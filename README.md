@@ -49,7 +49,7 @@ bot = Bequests(use_tor=True, logged=True)
 resp = bot.get("[https://check.torproject.org](https://check.torproject.org)")
 ```
 
-###Async Version
+### Async Version
 
 ```python
 import asyncio
