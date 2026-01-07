@@ -1,8 +1,9 @@
-# Bequests: Stealth HTTP Engine
+
+<img width="200" height="200" alt="bequests-logo" src="https://github.com/user-attachments/assets/4c4d8742-e48b-4c1f-a49c-db0bac076ae5" />
+
+# Bequests
 
 **Honestly, we're all tired of spending 3 hours debugging headers only to get slapped with a 403.** Bequests was born from a simple fact: making HTTP requests that actually fly under the radar has become a chore. This library isn't just another wrapper—it's an engine that handles the "dirty" work (TLS Fingerprinting, header ordering, hardware simulation) so you can focus on your data.
-
-
 
 ---
 
