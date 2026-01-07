@@ -27,7 +27,5 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Installation: installation.md
-  - Usage: usage.md
-  - Stealth Layers: stealth.md
-  - API Reference: api.md
+  - Protection Layers: protection-layers.md
+  - API Reference: api-reference.md
