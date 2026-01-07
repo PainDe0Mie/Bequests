@@ -28,7 +28,7 @@ pip install bequests
 
 ### Standard Stealth Request
 ```python
-from bequests import Bequests, MAX_LAYER
+from bequests.bequests import Bequests, MAX_LAYER
 
 # Fire up the engine
 bot = Bequests(logged=True)
@@ -53,7 +53,7 @@ resp = bot.get("[https://check.torproject.org](https://check.torproject.org)")
 
 ```python
 import asyncio
-from bequests import AsyncBequests
+from bequests.bequests import AsyncBequests
 
 async def main():
     bot = AsyncBequests(logged=True)
