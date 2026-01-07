@@ -3,7 +3,7 @@ site_description: Stealth HTTP Engine for Python
 site_author: PainDe0Mie
 
 theme:
-  name: material
+  name: readthedocs
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
