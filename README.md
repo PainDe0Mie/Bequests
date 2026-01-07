@@ -20,6 +20,12 @@
 
 ## Quick Start
 
+### Install Bequests
+
+```cmd
+pip install bequests
+```
+
 ### Standard Stealth Request
 ```python
 from bequests import Bequests, MAX_LAYER
