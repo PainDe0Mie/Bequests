@@ -30,7 +30,7 @@
 ## Quick Example
 
 ```python
-from bequests import Bequests, MAX_LAYER
+from bequests.bequests import Bequests, MAX_LAYER
 
 # Initialize with maximum protection
 bot = Bequests().layers(MAX_LAYER).set_speed(2, 5)
