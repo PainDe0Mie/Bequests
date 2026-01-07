@@ -37,7 +37,7 @@ bot = Bequests(logged=True)
 bot.layers(MAX_LAYER).imit_nav(True)
 
 # Fetch data, Bequests handles the bypass
-resp = bot.get("[https://target-website.com](https://target-website.com)")
+resp = bot.get("https://target-website.com")
 print(resp.text)
 ```
 
@@ -46,7 +46,7 @@ print(resp.text)
 ```python
 # Just toggle use_tor to True (assumes Tor is running on default port 9050)
 bot = Bequests(use_tor=True, logged=True)
-resp = bot.get("[https://check.torproject.org](https://check.torproject.org)")
+resp = bot.get("https://check.torproject.org")
 ```
 
 ### Async Version
@@ -62,7 +62,7 @@ async def main():
     await bot.generate_noise(count=3)
     
     # Clean async request
-    resp = await bot.get("[https://api.example.com/data](https://api.example.com/data)")
+    resp = await bot.get("https://api.example.com/data")
     data = await bot.smart_json(resp.url)
     print(data)
 
