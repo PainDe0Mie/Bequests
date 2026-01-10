@@ -75,10 +75,10 @@ asyncio.run(main())
 
 | Layer | Level | Features Included |
 | :--- | :--- | :--- |
-| **LOWER** | Basic | Identity (UA) + Jitter (random delays) |
-| **MEDIUM** | Standard | LOWER + Header ordering consistency (Client Hints) |
-| **MAX** | Professional | MEDIUM + Canvas/Hardware simulation + Cookie Warmup |
-| **NUCLEAR** | Final Boss | MAX + Automatic pivot through Google Cache if still blocked |
+| **LOWER** | 1 | Identity (UA) + Jitter (random delays) |
+| **MEDIUM** | 2 | LOWER + Header ordering consistency (Client Hints) |
+| **MAX** | 3 | MEDIUM + Canvas/Hardware simulation + Cookie Warmup |
+| **NUCLEAR** | 4 | MAX + Automatic pivot through Google Cache if still blocked |
 
 ---
 
